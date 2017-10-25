@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: simplechat_production
-  username: root
+  username: simplechat
   password: <%= ENV['SIMPLECHAT_DATABASE_PASSWORD'] %>
