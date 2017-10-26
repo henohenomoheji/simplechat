@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
   def index
     @messages = Message.all
-    @msg = 'Hello'
+    @msg = 'bye'
   end
 
   def show
